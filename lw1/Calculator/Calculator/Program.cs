@@ -26,7 +26,7 @@ namespace Calculator
 
             try
             {
-                double result = CalculatorApi.CalculatorApi.Calculate(command, argsArr);
+                double result = CalculatorApi.CalculatorService.Calculate(command, argsArr);
                 Console.WriteLine("Your result: " + String.Format("{0:F2}", result));
             }
             catch (Exception)

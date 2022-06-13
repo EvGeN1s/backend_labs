@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Calculator.CalculatorApi
 {
-    class CalculatorApi
+    class CalculatorService
     {
         public static double Calculate(string command, double[] args)
         {
