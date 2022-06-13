@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ScrumBoardLibrary.Exceptions;
 
-namespace ScrumBoardLibrary.Exceptions
+public class TaskNotFoundException : System.Exception
 {
-    internal class TaskNotFoundException
+    public TaskNotFoundException() : base("Task not found.")
     {
+
     }
 }
+

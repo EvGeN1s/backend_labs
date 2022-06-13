@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ScrumBoardLibrary.Exceptions;
 
-namespace ScrumBoardLibrary.Exceptions;
-
-public class ColumnLimitExceededException : 
+public class ColumnLimitExceededException : System.Exception
 {
-    public ColumnLimitExceededException() : base("Превышение лимита колонок")
+    public ColumnLimitExceededException() : base("Collumn limit exceeded")
     {
     }
 }

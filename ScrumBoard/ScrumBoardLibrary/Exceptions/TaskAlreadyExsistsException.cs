@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ScrumBoardLibrary.Exceptions;
 
-namespace ScrumBoardLibrary.Exceptions
+public class TaskAlreadyExsistsException : System.Exception
 {
-    internal class TaskAlreadyExsistsException
+    public TaskAlreadyExsistsException() : base("Task already exsists.")
     {
+
     }
 }
+
